@@ -1,0 +1,496 @@
+{
+    "target_epsilon": 8.0,
+    "rounds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "accuracy": [
+        0.5961538461538461,
+        0.625,
+        0.7339743589743589,
+        0.7756410256410257,
+        0.7964743589743589,
+        0.8060897435897436,
+        0.8044871794871795,
+        0.7980769230769231,
+        0.782051282051282,
+        0.7964743589743589,
+        0.7772435897435898
+    ],
+    "f1": [
+        0.38435517970401695,
+        0.38461538461538464,
+        0.6452991452991452,
+        0.7220489977728285,
+        0.7525100950322761,
+        0.7686587514362313,
+        0.7671043453786757,
+        0.7489655172413794,
+        0.7261144030053057,
+        0.7508606136057117,
+        0.719561442931646
+    ],
+    "precision": [
+        0.37,
+        0.3125,
+        0.8205128205128205,
+        0.8256177029595438,
+        0.8429236838352953,
+        0.8418972038863755,
+        0.8384297520661157,
+        0.8662538699690403,
+        0.8499138673557278,
+        0.8487171997468478,
+        0.8433359243659502
+    ],
+    "recall": [
+        0.47948717948717945,
+        0.5,
+        0.6495726495726496,
+        0.7102564102564103,
+        0.7371794871794872,
+        0.7525641025641026,
+        0.7512820512820513,
+        0.7333333333333334,
+        0.7136752136752137,
+        0.7354700854700854,
+        0.7081196581196582
+    ],
+    "loss": [
+        0.7132635742425919,
+        2.2738136649131775,
+        0.9015086933970451,
+        0.8658593818545341,
+        1.0058448359370231,
+        0.9998601049184799,
+        1.0202718943357467,
+        1.3995990574359893,
+        1.5177314281463623,
+        1.455675245821476,
+        1.6584775894880295
+    ],
+    "epsilon_spent": [
+        0.0,
+        3.3825991504587045,
+        4.16628747657787,
+        4.802658523173991,
+        5.361417333051969,
+        5.869545962822625,
+        6.3410801813204625,
+        6.784481394877377,
+        7.205339043619605,
+        7.607583337640533,
+        7.999014960168044
+    ],
+    "blockchain_log": [
+        {
+            "round": 1,
+            "client_id": 0,
+            "update_tx_hash": "61119bc93beebb8ff24b6b6590a420affead48e8c9b10273e3b9835d286b4d21",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "4e219046999bd3b283b09af08515e24efc6c2d5d64cc46174d3ae20ba8dbb371",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 1,
+            "client_id": 1,
+            "update_tx_hash": "f83b8166c3154e1c9f4278a6d54a5e799e9a40213bf022e4f5dc0940a2029187",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "a5ec98a37cd4a598fc7d458ecfb40c083744b1003207f826e380a28e5111dd6e",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 1,
+            "client_id": 2,
+            "update_tx_hash": "0a4bbf8bbf22f00579688cb27cafcdc2064233ef57ddbf742e2295bdecb54206",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "444ad4e636b9bcaac584a407787ba0d6492b2c54952775fc3623b4bd75f981c5",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 1,
+            "client_id": 3,
+            "update_tx_hash": "a0faee59c4c66f1dc007fbdaefc0cd410426b6e59271c00c33dd857ee133f609",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "6f77a31c3cf1f01e2956dc53703192b9e3a459efccfe58c285a0a24333ef48a4",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 1,
+            "client_id": 4,
+            "update_tx_hash": "a1176ef9bbab73c5146b62dd20703ee6759eb3d7876cb91b745d74e9a0906fdf",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "09048f30cdba7daba18d436e547090dada78f191da372df1965f1510a0c555cf",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 2,
+            "client_id": 0,
+            "update_tx_hash": "b8558a9a26e7916bef5a954c46fdb039893c5012db2db79788dd71fd257dac1f",
+            "update_gas_used": 74039,
+            "reward_tx_hash": "5f15f77d4cf22617de70140b7a61832e36589222becd0c58b58997ab0d311551",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 2,
+            "client_id": 1,
+            "update_tx_hash": "565a43043f0268d61800fce5024a363ae6c8b472a8888030bc560c5c3b1a0e41",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "86ace68cc12f62b6c52d61bf1de97f9c6a5f59bf5845ee011d24a8fa932797a3",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 2,
+            "client_id": 2,
+            "update_tx_hash": "7800fc59ace701de5d2d928a27ad86cccdd1945bd780f1f9118b4e9d77d78c86",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "c175df7aa43c5ac07f05aa74c76c4869cd5b386408b254f0ebcbac12b8efcfa7",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 2,
+            "client_id": 3,
+            "update_tx_hash": "6679dc0dd85383cf0c59a19967d458fc395531ecb2a19e51a595793b00ae30f2",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "9dbf00efe410c752cf1d90187650bc9e5d70ef3c59f839e837733d7869171aa0",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 2,
+            "client_id": 4,
+            "update_tx_hash": "558d6400f2038a894293a3f4175331d50255ec4f127818018b605cc1113dc66b",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "13135d4e3f80d26b32d31cf127ed2f70a0d32c718de7cfe5a24321beaa3722e4",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 3,
+            "client_id": 0,
+            "update_tx_hash": "9d26059bdad9316a246162eda723fb1b393b48496c3b063fc1f5f8494411350a",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "99234760bd6e315f5932d4cc7a896d1129ae85f931d7284765e8c1cecc9cce46",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 3,
+            "client_id": 1,
+            "update_tx_hash": "bd798d47bddd81bf9e1f08bc26b7cb29649b47dde3cdfafe8c03701caf288974",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "ecc263e0d3e5191240505ba0f1bdc87a608d0d50d6ef02a06c9a64910907c701",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 3,
+            "client_id": 2,
+            "update_tx_hash": "11c65279e22c4004d83a61ca2ce294d8f2af65d51ba12cb92949d4b008684e5f",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "4ad6b2c4db47f61e6e367a8b1e01ae370fbc3a3ba35d4cb2344ae7c8b3641861",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 3,
+            "client_id": 3,
+            "update_tx_hash": "bffdddaf3610a341bef310e916ace82520731649be4ee00c9194f1543c4c5ab6",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "3eb1fb0ac886702a1e7f4be1a56df08e0d038eaa7d81c9566cdacaf9b1182a37",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 3,
+            "client_id": 4,
+            "update_tx_hash": "83368597fb2d1290454ce52a7ecfbbe5054f4a8b1e99445f1b44ffe520fc6773",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "0b3584adbabe295bfa8fb90ceefe9f8ef6a35a8ee2273fad61f547a366441e8e",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 4,
+            "client_id": 0,
+            "update_tx_hash": "128780e7feb32bb88599641eae932a9f8fec3a6d15dc1a73180d84ec05130f5d",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "b01bf1ff75e1e5d9d1da291f7d530bd57054c804a44244aec26c0f9e91c5552f",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 4,
+            "client_id": 1,
+            "update_tx_hash": "c4d73acc68e6c4947af73370bc734c829728bccdb1685a0aa774d9c1a9f0a79d",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "cada5670f41ec3a35f54bfe68779299bbd3ab6395edac0876fdf0e8bd5484bb9",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 4,
+            "client_id": 2,
+            "update_tx_hash": "2958c45e7701dfe999e2a1d5a5339ab53ea8d8de096e92442e10cebbe484aaab",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "821f7a40a013e3bce8b937fec02754fcb6bcbbbe449fc2008a3dd49f8aecfa82",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 4,
+            "client_id": 3,
+            "update_tx_hash": "10c4abdad54b3cef9396719647b1e279073c1477ae64fa083cf97df681b4517e",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "a2d6cdce62bcd85a1d83b3eadc5ad11b0b1b51b46592a6970780399685a9fe2f",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 4,
+            "client_id": 4,
+            "update_tx_hash": "f9981fc5d8c7370b07385d741edaa5a0a98c6fcc7fec128bbd27a06a749e61f0",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "2a988a4ac3aaad15d8050a10fa07d07387f2086e53249277b7f35a516c574287",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 5,
+            "client_id": 0,
+            "update_tx_hash": "6ecd7b02c31e069a7c95d4e1a5192204838a67e84a104c4f9d47c0aded677d3e",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "1c6e25691e660369f72213386394af42f7863acd35d1793c799379660f28a4fd",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 5,
+            "client_id": 1,
+            "update_tx_hash": "b08cbd6564e537a19c948f52fbb00041276745a0e359eab739f502b6662c950d",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "002b8b64366a496f5617955034ce87ab1dcefffa8a1438fd31e0e8fbc0db0772",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 5,
+            "client_id": 2,
+            "update_tx_hash": "1ea909ed9da5935eb82d16de0a3e5a301d718a963a0c258206ac97bcf2d55ccd",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "0d76873a866915d685aed4a1e618f59dcddfe8be2424cdbd41c0642dfeb6f545",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 5,
+            "client_id": 3,
+            "update_tx_hash": "d8fbef721058101977faba6e4e6134120b055b5e6bf6b6ed4e21c4dbc8141d40",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "9e3f6d676596baa2b5042e579ae0e9774723bb1271edc583839da834b52b1ea5",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 5,
+            "client_id": 4,
+            "update_tx_hash": "f134ee2c82de4dd475299e262826949499dfe679a52dc7bbb8b0e6a426d4d1c6",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "cc35824140c6da25805fe28e964514282f589652df028f783f5ff8c161eddfc5",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 6,
+            "client_id": 0,
+            "update_tx_hash": "4c7ce7e124928614995581679e471d1efd6705a2879a397d78a9ddd213acee5a",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "d02573e0b695e436fcb1ebe42999656ecbb9ddf4ae71ec85db4c9f71d2ba4deb",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 6,
+            "client_id": 1,
+            "update_tx_hash": "eec8c35a6b8586ee50f763640f0f5b7c3158e2f49569c23a299cf3214bc63845",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "ccf145f447d53a52017c27542e6a5ecb8f3edcebb8e745884d46429da03faeb8",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 6,
+            "client_id": 2,
+            "update_tx_hash": "39b087ad858483dde7056ccbaebb613e64f82fdfbc0cb1de28184e53222cf1c1",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "793cea1f3ba3943388c1120aaf4e02599e04cdf86f82a970944051c848ffdda0",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 6,
+            "client_id": 3,
+            "update_tx_hash": "1afd7f807d24ff52c45e0a758876c6edb2f48ddf410a406e33430b1f2cf6a268",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "85ae1bffc4872ef48b9c3a6c9a37b0e4072303bf16e8eaf393efe8a7abb80fe6",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 6,
+            "client_id": 4,
+            "update_tx_hash": "ec3c93594c87cceb3774665eba4afd62b8d10dd1f19a448fd71db06dc2c698c6",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "35dd9c2e4189c23247d5fba0d0b3c53d03158e787f891da08545fddc4b8e59f7",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 7,
+            "client_id": 0,
+            "update_tx_hash": "2afdcbcdcf8c2c0a35828196c22c6f067e7360f5b7188d474c3dc4ae36f4fc78",
+            "update_gas_used": 74039,
+            "reward_tx_hash": "073635579715ae2391d2f3382f14363053cef161dcfc3e419133a9f9a9236eb3",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 7,
+            "client_id": 1,
+            "update_tx_hash": "c234f7c0597645030fdadb24b5d86344595072575ba5832844f2543926acac36",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "af28f52b6a4d2f4ba2710a241b5b3985ea57d6bd14d8b8b52d05cf399fc88a53",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 7,
+            "client_id": 2,
+            "update_tx_hash": "6026ce974c4cbb1de16df06c14df3ba5df6906e82e86081c800d6af64c35c7aa",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "6e2ec83bf5027b64bbaf5fd31a81c9c90b07e451bc05337c4f9d63881d671ea8",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 7,
+            "client_id": 3,
+            "update_tx_hash": "9d12e5ee9091d0acb181a07534a267ca649f6e65c8cbc0f3caf3a60eebd448ae",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "2238100aba45bb818c4b0ed6054e2cae7803ac23c8074ba3e0e5031276288381",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 7,
+            "client_id": 4,
+            "update_tx_hash": "bab7a6258f4b339647a3f24f65df34f402bc2dfd3f483f2f29f8c0d451cc8d4b",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "69da60f4760350ad07cb0b85a22080e1b202b74bbd66ec2dbaeba01f76747560",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 8,
+            "client_id": 0,
+            "update_tx_hash": "d669a1f68030e1d36e283ea2ffe59459caaa9c5076d1c43e27b9d91f99f13df5",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "cd786ebbcda5bf23a9f05b05316600462468417acc1f0b472bdb21903f1dafbd",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 8,
+            "client_id": 1,
+            "update_tx_hash": "98e55356511f8323b4555e9c1b15bd3f91dd7009c685d0a3efbd329ade11fc91",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "7d52cbd831757bc28463c70292f4299fd51e2be67b3f487d11ee03e4d4fdea10",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 8,
+            "client_id": 2,
+            "update_tx_hash": "33c56e1fc3ff848a6a75f71b9e260dda24714cc70f0b7d4b3f7c990c1052f388",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "fd8c3ddd86434915da523cfe9b8a6f6fca74717449090823aa9d54408927f5ce",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 8,
+            "client_id": 3,
+            "update_tx_hash": "abf455d0edff79d2bfbf744cfe32e3e96ceaefa5ced424d3f46f4923ecd410aa",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "7583a275be064997af2ba5e7d8bb5f27f6fbcf3612f9b7001dd2249b30d6ad01",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 8,
+            "client_id": 4,
+            "update_tx_hash": "a78edab487eac068222cf324ccc71c1d86466095b9d01bc5583876796c184233",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "c1571b31d370075dbbc7abb82d510088428e3f67d9cea7f31c4657a991ee3dfe",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 9,
+            "client_id": 0,
+            "update_tx_hash": "922e673b46133b5a458f8658913e2755ebf8e2374deac88e8e672be258c450dd",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "bda856f266b71a7bb4004cb133c60495612dfc834c98b574b0be1d48c4fa93e4",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 9,
+            "client_id": 1,
+            "update_tx_hash": "7df732571bfc4cb89d2a55114ef97217c748a8ed27320c7fd58b835c4c6c05a6",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "b4e3a3f4a5901012924726c4fb3b9c6fd39f3901a464c42664d9397e393046d7",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 9,
+            "client_id": 2,
+            "update_tx_hash": "eda0196d3144b24c27de48d4a025c390948b9c7708dc88d460a4f3d3536a8fd8",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "72318ee269b734f270541e7735849a5acee510fa44c3857c106498a7274b70fa",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 9,
+            "client_id": 3,
+            "update_tx_hash": "31961bbc2aea886b540ba0bcaed494ad3e4d004793637f8c050806413d6d415f",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "6a86abd7fad530ce7879aed415540950b141635d4deb0e9d0ad9f936ba7c9e78",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 9,
+            "client_id": 4,
+            "update_tx_hash": "3fc9d7df53f02720fb65e2b68418bef948f06ec12f4d51cf7c2f0638475416c9",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "5e9fdb6d553f51f3807d25973f69cd58db802b3b0c27a03eb88a63593bb44ed9",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 10,
+            "client_id": 0,
+            "update_tx_hash": "2bcfd942e8b59809db28010d5827fd126b0e1826a0bc27691ea7ba7d9fe596fd",
+            "update_gas_used": 74051,
+            "reward_tx_hash": "cc4041b81ee9657c9530439115024969dcbd0f1b14b0227fa1eab51f0967ef8e",
+            "reward_gas_used": 73657
+        },
+        {
+            "round": 10,
+            "client_id": 1,
+            "update_tx_hash": "f428ae0500da02fd172739bdd79f2e873ad1401dea43d3d888b2c0eaf9bf7335",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "3160d4161b2cd791550f3a61acf30c3c2e7ded6a31465d6ed0849a3ab0074501",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 10,
+            "client_id": 2,
+            "update_tx_hash": "cca73c7e50618394db70f3b644a96b46f86bb8823388f9685fc6617a1c4b9507",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "35a424423cd7c7fa3220868b02bc4eb687c0ae603d27a39081487c6c56e4f052",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 10,
+            "client_id": 3,
+            "update_tx_hash": "7a39e621ca1c21776c26319f9a76787163baa139b583faa9f06f1d383c4870dd",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "0ab8102b96c825bcc96b0d2641dfc7765f87efb0d56c73f7685b88cc247d6ad5",
+            "reward_gas_used": 73669
+        },
+        {
+            "round": 10,
+            "client_id": 4,
+            "update_tx_hash": "8f5b89925a69970b95110ae655950d756c22063df2c12c28d10088b1c2b7ec5b",
+            "update_gas_used": 74063,
+            "reward_tx_hash": "a11bd00e1082f5e12950efbedc3ea40796229fb07cc1e894b73ea356512b78b3",
+            "reward_gas_used": 73669
+        }
+    ]
+}

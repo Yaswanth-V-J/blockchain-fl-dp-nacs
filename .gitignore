@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables, credentials, and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+
+# Large raw datasets and unzipped archives
+archive (1)/
+archive/
+data/UCI HAR Dataset/
+data/UCI HAR Dataset.zip
+data/uci_har.zip
+data/__MACOSX/
+data/nih_cache/
+*.zip
+*.tar
+*.tar.gz
+*.npz
+
+# Node.js and Hardhat build artifacts
+node_modules/
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/typechain-types/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDE and Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Intermediate execution status (updated live by runners)
+results/live_status.json

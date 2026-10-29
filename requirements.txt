@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+flwr>=1.5.0
+medmnist>=3.0.0
+opacus>=1.4.0
+web3>=6.0.0
+streamlit>=1.20.0
+psutil>=5.9.0
+pandas>=2.0.0
+Pillow>=9.5.0

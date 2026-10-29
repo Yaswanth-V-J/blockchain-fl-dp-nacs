@@ -1,0 +1,3658 @@
+{
+    "domain": "NIH Chest X-ray Multi-Label FL",
+    "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+    ],
+    "target_epsilons": [
+        1.0,
+        3.0,
+        8.0,
+        15.0,
+        20.0
+    ],
+    "mean_final_micro_f1": 0.023932472991553752,
+    "std_final_micro_f1": 0.02370346439719553,
+    "client_summary": {
+        "0": {
+            "client_id": 0,
+            "target_epsilon": 1.0,
+            "baseline_var_mean": 120.25900000000001,
+            "baseline_var_std": 26.614948976092368,
+            "nacs_var_mean": 23.792,
+            "nacs_var_std": 5.534883557944106,
+            "reduction_mean_percent": 80.2430788342435,
+            "reduction_std_percent": 1.1876208042615395
+        },
+        "1": {
+            "client_id": 1,
+            "target_epsilon": 3.0,
+            "baseline_var_mean": 134.977,
+            "baseline_var_std": 25.16182507291552,
+            "nacs_var_mean": 35.44100000000001,
+            "nacs_var_std": 6.760642646967818,
+            "reduction_mean_percent": 73.75598006053573,
+            "reduction_std_percent": 1.144304741027377
+        },
+        "2": {
+            "client_id": 2,
+            "target_epsilon": 8.0,
+            "baseline_var_mean": 152.91400000000002,
+            "baseline_var_std": 28.140541999044725,
+            "nacs_var_mean": 40.915,
+            "nacs_var_std": 8.364173898240042,
+            "reduction_mean_percent": 73.34142028586453,
+            "reduction_std_percent": 1.277180787982824
+        },
+        "3": {
+            "client_id": 3,
+            "target_epsilon": 15.0,
+            "baseline_var_mean": 148.623,
+            "baseline_var_std": 36.64871704439325,
+            "nacs_var_mean": 38.891999999999996,
+            "nacs_var_std": 9.608528295217747,
+            "reduction_mean_percent": 73.81654076173712,
+            "reduction_std_percent": 0.7192520433211689
+        },
+        "4": {
+            "client_id": 4,
+            "target_epsilon": 20.0,
+            "baseline_var_mean": 155.05,
+            "baseline_var_std": 30.71936652992701,
+            "nacs_var_mean": 40.163000000000004,
+            "nacs_var_std": 6.849410266584999,
+            "reduction_mean_percent": 73.90072474332905,
+            "reduction_std_percent": 1.5338888722691002
+        }
+    },
+    "all_seeds_data": [
+        {
+            "seed": 42,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 524,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 85,
+                            "nacs_score": 52
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 44,
+                            "nacs_score": 48
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 46,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 44,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 45,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 45,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 45,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 538,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 93,
+                            "nacs_score": 57
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 54,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 52,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 50,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 52,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 52,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 52,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 500,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 94,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 50,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 50,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.728302001953125,
+                    "client_size": 508,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 94,
+                            "nacs_score": 57
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 44,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 45,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 44,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 45,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 45,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 45,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.64544677734375,
+                    "client_size": 500,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 95,
+                            "nacs_score": 57
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 47,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 45,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0033783783783783786,
+                0.0,
+                0.0033444816053511705,
+                0.003372681281618887,
+                0.013266998341625208,
+                0.03542673107890499,
+                0.006745362563237774
+            ],
+            "loss": [
+                0.2407192748785019,
+                0.24401976227760314,
+                0.22831377536058425,
+                0.22220302999019623,
+                0.2196101152896881,
+                0.21246153146028518,
+                0.22194302767515184,
+                0.22155471235513688,
+                0.2137349823117256,
+                0.22081377148628234
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 142.96,
+                    "nacs_variance": 27.839999999999996,
+                    "variance_reduction_percent": 80.52602126468942
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 152.08999999999997,
+                    "nacs_variance": 40.160000000000004,
+                    "variance_reduction_percent": 73.59458215530277
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 181.61,
+                    "nacs_variance": 47.56,
+                    "variance_reduction_percent": 73.81201475689664
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 215.6,
+                    "nacs_variance": 55.81,
+                    "variance_reduction_percent": 74.11410018552876
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 212.60999999999999,
+                    "nacs_variance": 53.839999999999996,
+                    "variance_reduction_percent": 74.67663797563614
+                }
+            }
+        },
+        {
+            "seed": 43,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 86,
+                            "nacs_score": 53
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 48,
+                            "nacs_score": 49
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 51,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 51,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 49,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 520,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 90,
+                            "nacs_score": 55
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 61,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 59,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 58,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 58,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 58,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 57,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 58,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 56,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 59,
+                            "nacs_score": 39
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.95947265625,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 95,
+                            "nacs_score": 58
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 51,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.728302001953125,
+                    "client_size": 499,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 94,
+                            "nacs_score": 57
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 53,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 54,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 53,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.64544677734375,
+                    "client_size": 493,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 93,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 51,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 51,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 50,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0031645569620253164,
+                0.0,
+                0.0,
+                0.012539184952978056,
+                0.015479876160990712,
+                0.018433179723502304
+            ],
+            "loss": [
+                0.24356723634096292,
+                0.23952499519173914,
+                0.24129139746610934,
+                0.22765655328448003,
+                0.22834921943453643,
+                0.2234243948299151,
+                0.22458785600387132,
+                0.21779585343140823,
+                0.216796031078467,
+                0.22374488069460943
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 118.24000000000004,
+                    "nacs_variance": 23.69,
+                    "variance_reduction_percent": 79.96447902571043
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 92.43999999999998,
+                    "nacs_variance": 25.45,
+                    "variance_reduction_percent": 72.46862829943747
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 182.65,
+                    "nacs_variance": 51.65,
+                    "variance_reduction_percent": 71.72187243361621
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 156.44000000000003,
+                    "nacs_variance": 39.96,
+                    "variance_reduction_percent": 74.45666070058809
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 171.29000000000002,
+                    "nacs_variance": 45.01,
+                    "variance_reduction_percent": 73.72292603187577
+                }
+            }
+        },
+        {
+            "seed": 44,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.375,
+                    "client_size": 491,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 82,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 44,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 48,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 45,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 47,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 45,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 47,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 46,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 515,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 86,
+                            "nacs_score": 53
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 47,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 46,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 45,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.95947265625,
+                    "client_size": 528,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 88,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 53,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 53,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 54,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 515,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 52,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 53,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.64544677734375,
+                    "client_size": 504,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 89,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 48,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.013223140495867768,
+                0.0231023102310231,
+                0.01335559265442404,
+                0.00338409475465313,
+                0.013422818791946308
+            ],
+            "loss": [
+                0.23530334406174147,
+                0.22765668395620126,
+                0.2210346692456649,
+                0.2264176423733051,
+                0.21998964049495184,
+                0.21238663391425058,
+                0.2213334501362764,
+                0.22161912602873948,
+                0.21828963722173983,
+                0.2143454631933799
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 117.84,
+                    "nacs_variance": 21.759999999999998,
+                    "variance_reduction_percent": 81.53428377460965
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 140.04000000000002,
+                    "nacs_variance": 37.25,
+                    "variance_reduction_percent": 73.4004570122822
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 114.2,
+                    "nacs_variance": 27.159999999999997,
+                    "variance_reduction_percent": 76.21716287215412
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 112.96,
+                    "nacs_variance": 30.290000000000003,
+                    "variance_reduction_percent": 73.18519830028329
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 152.48999999999998,
+                    "nacs_variance": 37.36,
+                    "variance_reduction_percent": 75.50003278903534
+                }
+            }
+        },
+        {
+            "seed": 45,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 516,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 80,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 48,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 48,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 47,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 48,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 542,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 49,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 51,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 50,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 508,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 88,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 54,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 54,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 54,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 54,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.728302001953125,
+                    "client_size": 497,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 89,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 45,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 48,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 524,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 57,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 59,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 56,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 56,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 56,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 55,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 55,
+                            "nacs_score": 37
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.003952569169960474,
+                0.007827788649706457,
+                0.0,
+                0.040145985401459854,
+                0.0260707635009311,
+                0.0,
+                0.01893939393939394
+            ],
+            "loss": [
+                0.23370017349720001,
+                0.23976061940193177,
+                0.23374348729848862,
+                0.227566337287426,
+                0.2212983900308609,
+                0.22876495242118836,
+                0.21422022044658662,
+                0.2227232775092125,
+                0.22816031634807588,
+                0.2285204753279686
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 95.56000000000002,
+                    "nacs_variance": 18.84,
+                    "variance_reduction_percent": 80.2846379238175
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 125.25,
+                    "nacs_variance": 32.24,
+                    "variance_reduction_percent": 74.25948103792415
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 109.08999999999999,
+                    "nacs_variance": 28.090000000000003,
+                    "variance_reduction_percent": 74.25061875515628
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 162.76000000000002,
+                    "nacs_variance": 41.440000000000005,
+                    "variance_reduction_percent": 74.53919882034899
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 113.61000000000001,
+                    "nacs_variance": 31.96,
+                    "variance_reduction_percent": 71.86867353225949
+                }
+            }
+        },
+        {
+            "seed": 46,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 521,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 47,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 46,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 48,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 47,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 47,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 89,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 51,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 51,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 50,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 508,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 90,
+                            "nacs_score": 55
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 48,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 47,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 48,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 521,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 52,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 524,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 93,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 54,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 53,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 53,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0033500837520938024,
+                0.013266998341625208,
+                0.029315960912052116,
+                0.03257328990228013,
+                0.07373271889400922
+            ],
+            "loss": [
+                0.2527090671161811,
+                0.24644433024028936,
+                0.23815231025218964,
+                0.23974279748896757,
+                0.23997225177784762,
+                0.23199671072264513,
+                0.23045981489121914,
+                0.2275933095564445,
+                0.23122347394625345,
+                0.22996491938829422
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 144.8,
+                    "nacs_variance": 30.960000000000008,
+                    "variance_reduction_percent": 78.61878453038673
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 138.95999999999998,
+                    "nacs_variance": 34.89,
+                    "variance_reduction_percent": 74.89205526770293
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 159.76,
+                    "nacs_variance": 41.29,
+                    "variance_reduction_percent": 74.15498247371058
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 151.20999999999998,
+                    "nacs_variance": 41.440000000000005,
+                    "variance_reduction_percent": 72.59440513193572
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 153.4,
+                    "nacs_variance": 37.36,
+                    "variance_reduction_percent": 75.64537157757498
+                }
+            }
+        },
+        {
+            "seed": 47,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 516,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 86,
+                            "nacs_score": 53
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 42,
+                            "nacs_score": 49
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 43,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 45,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 45,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 44,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 45,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 44,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 43,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 44,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.7822265625,
+                    "client_size": 497,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 50,
+                            "nacs_score": 48
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 50,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 499,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 90,
+                            "nacs_score": 55
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 49,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 46,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 86,
+                            "nacs_score": 53
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 54,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 52,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 519,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 89,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 45,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.01692047377326565,
+                0.0,
+                0.03691275167785235,
+                0.02037351443123939,
+                0.027303754266211604,
+                0.04040404040404041
+            ],
+            "loss": [
+                0.24095857831148002,
+                0.22505210397335199,
+                0.21904097096278116,
+                0.21291931890524352,
+                0.2038380469267185,
+                0.21644487231969833,
+                0.20581404177042154,
+                0.21051970296181166,
+                0.20653976270785698,
+                0.20156465700039497
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 160.49,
+                    "nacs_variance": 32.21,
+                    "variance_reduction_percent": 79.93021372048102
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 148.65,
+                    "nacs_variance": 40.24000000000001,
+                    "variance_reduction_percent": 72.9297006390851
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 165.45,
+                    "nacs_variance": 44.089999999999996,
+                    "variance_reduction_percent": 73.35146569960713
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 106.36000000000001,
+                    "nacs_variance": 28.559999999999995,
+                    "variance_reduction_percent": 73.14779992478375
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 165.05,
+                    "nacs_variance": 40.040000000000006,
+                    "variance_reduction_percent": 75.74068464101788
+                }
+            }
+        },
+        {
+            "seed": 48,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.375,
+                    "client_size": 499,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 82,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 42,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 42,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 40,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 40,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 43,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 43,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 41,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 42,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 42,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 536,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 86,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 49,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 48,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 48,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 45,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 46,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.95947265625,
+                    "client_size": 522,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 92,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 57,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 55,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 54,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 57,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 56,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 55,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 54,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 55,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.728302001953125,
+                    "client_size": 507,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 89,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 56,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 52,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 53,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 54,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 514,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 55,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 54,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 53,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 53,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.055384615384615386,
+                0.0034071550255536627,
+                0.01675041876046901,
+                0.013445378151260505,
+                0.006791171477079796
+            ],
+            "loss": [
+                0.2636969494819641,
+                0.24623941123485565,
+                0.2426203066110611,
+                0.23993240237236024,
+                0.23249808251857756,
+                0.216639963388443,
+                0.23174830436706542,
+                0.2281458407640457,
+                0.22379791617393494,
+                0.23135944306850434
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 147.41000000000003,
+                    "nacs_variance": 27.76,
+                    "variance_reduction_percent": 81.16817040906315
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 136.15999999999997,
+                    "nacs_variance": 36.41,
+                    "variance_reduction_percent": 73.25940070505288
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 122.89000000000001,
+                    "nacs_variance": 34.29,
+                    "variance_reduction_percent": 72.09699731467167
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 123.35999999999999,
+                    "nacs_variance": 30.85,
+                    "variance_reduction_percent": 74.99189364461738
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 106.60999999999999,
+                    "nacs_variance": 30.01,
+                    "variance_reduction_percent": 71.85067066879279
+                }
+            }
+        },
+        {
+            "seed": 49,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 520,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 83,
+                            "nacs_score": 52
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 45,
+                            "nacs_score": 48
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 50,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 49,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 50,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 49,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 85,
+                            "nacs_score": 52
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 52,
+                            "nacs_score": 46
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 52,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 52,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 53,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 51,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 52,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 505,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 48,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 48,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 514,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 90,
+                            "nacs_score": 55
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 52,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 51,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.64544677734375,
+                    "client_size": 504,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 87,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 47,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 46,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.02247191011235955,
+                0.0035026269702276708,
+                0.0034423407917383822,
+                0.0,
+                0.0034542314335060447
+            ],
+            "loss": [
+                0.2310018063737796,
+                0.2351734649676543,
+                0.22538149643402833,
+                0.22055071706955248,
+                0.2212248622224881,
+                0.20973445647037947,
+                0.2223564787552907,
+                0.20841943415311667,
+                0.21732392219396737,
+                0.20366629728904137
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 107.88999999999996,
+                    "nacs_variance": 20.610000000000003,
+                    "variance_reduction_percent": 80.89721012141996
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 100.4,
+                    "nacs_variance": 23.810000000000002,
+                    "variance_reduction_percent": 76.28486055776892
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 140.85,
+                    "nacs_variance": 39.40999999999999,
+                    "variance_reduction_percent": 72.01987930422436
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 139.20999999999998,
+                    "nacs_variance": 35.96,
+                    "variance_reduction_percent": 74.16852237626607
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 142.96,
+                    "nacs_variance": 37.89,
+                    "variance_reduction_percent": 73.49608282036934
+                }
+            }
+        },
+        {
+            "seed": 50,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 534,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 79,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 50,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 53,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 48,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 51,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 50,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 51,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 52,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 38
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.73828125,
+                    "client_size": 529,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 45,
+                            "nacs_score": 48
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 47,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 44,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 45,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 45,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 45,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 46,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 489,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 92,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 46,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 46,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 45,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 44,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 514,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 42,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 45,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 43,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 43,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 42,
+                            "nacs_score": 31
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 45,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 43,
+                            "nacs_score": 32
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 42,
+                            "nacs_score": 31
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 43,
+                            "nacs_score": 31
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 513,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 92,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 45,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 48,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 44,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 46,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 45,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.00333889816360601,
+                0.0,
+                0.01309328968903437,
+                0.0033112582781456954,
+                0.06835066864784546,
+                0.016233766233766232,
+                0.05740181268882175
+            ],
+            "loss": [
+                0.23906732052564622,
+                0.25723747491836546,
+                0.24873553365468978,
+                0.24735113531351088,
+                0.23956095159053803,
+                0.24189581334590912,
+                0.23823769599199296,
+                0.23000897079706192,
+                0.22998301148414613,
+                0.22896528840065003
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 74.64,
+                    "nacs_variance": 13.64,
+                    "variance_reduction_percent": 81.72561629153269
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 186.69,
+                    "nacs_variance": 48.16000000000001,
+                    "variance_reduction_percent": 74.20322459692537
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 191.24,
+                    "nacs_variance": 52.0,
+                    "variance_reduction_percent": 72.80903576657603
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 207.49,
+                    "nacs_variance": 55.45,
+                    "variance_reduction_percent": 73.27582052147092
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 191.64000000000001,
+                    "nacs_variance": 48.36,
+                    "variance_reduction_percent": 74.76518472135255
+                }
+            }
+        },
+        {
+            "seed": 51,
+            "target_epsilons": [
+                1.0,
+                3.0,
+                8.0,
+                15.0,
+                20.0
+            ],
+            "per_client": {
+                "0": {
+                    "client_id": 0,
+                    "target_epsilon": 1.0,
+                    "noise_multiplier": 4.2578125,
+                    "client_size": 535,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 79,
+                            "nacs_score": 50
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 47,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 47,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 47,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 47,
+                            "nacs_score": 41
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 45,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 48,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 48,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 47,
+                            "nacs_score": 36
+                        }
+                    ]
+                },
+                "1": {
+                    "client_id": 1,
+                    "target_epsilon": 3.0,
+                    "noise_multiplier": 1.7822265625,
+                    "client_size": 504,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 88,
+                            "nacs_score": 54
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 50,
+                            "nacs_score": 47
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 53,
+                            "nacs_score": 43
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 51,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 51,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 37
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 49,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 49,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 51,
+                            "nacs_score": 35
+                        }
+                    ]
+                },
+                "2": {
+                    "client_id": 2,
+                    "target_epsilon": 8.0,
+                    "noise_multiplier": 0.9765625,
+                    "client_size": 502,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 55
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 49,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 49,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 49,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 47,
+                            "nacs_score": 33
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 50,
+                            "nacs_score": 34
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 49,
+                            "nacs_score": 34
+                        }
+                    ]
+                },
+                "3": {
+                    "client_id": 3,
+                    "target_epsilon": 15.0,
+                    "noise_multiplier": 0.71868896484375,
+                    "client_size": 524,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 55,
+                            "nacs_score": 45
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 58,
+                            "nacs_score": 42
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 58,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 56,
+                            "nacs_score": 39
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 55,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 57,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 56,
+                            "nacs_score": 38
+                        }
+                    ]
+                },
+                "4": {
+                    "client_id": 4,
+                    "target_epsilon": 20.0,
+                    "noise_multiplier": 0.637969970703125,
+                    "client_size": 524,
+                    "history": [
+                        {
+                            "round": 1,
+                            "baseline_score": 91,
+                            "nacs_score": 56
+                        },
+                        {
+                            "round": 2,
+                            "baseline_score": 53,
+                            "nacs_score": 44
+                        },
+                        {
+                            "round": 3,
+                            "baseline_score": 54,
+                            "nacs_score": 40
+                        },
+                        {
+                            "round": 4,
+                            "baseline_score": 53,
+                            "nacs_score": 38
+                        },
+                        {
+                            "round": 5,
+                            "baseline_score": 51,
+                            "nacs_score": 36
+                        },
+                        {
+                            "round": 6,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 7,
+                            "baseline_score": 50,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 8,
+                            "baseline_score": 51,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 9,
+                            "baseline_score": 51,
+                            "nacs_score": 35
+                        },
+                        {
+                            "round": 10,
+                            "baseline_score": 52,
+                            "nacs_score": 36
+                        }
+                    ]
+                }
+            },
+            "micro_f1": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0037174721189591076,
+                0.0
+            ],
+            "loss": [
+                0.23624830910315117,
+                0.24028396451224884,
+                0.22608811780810356,
+                0.2238550695280234,
+                0.21819668635725975,
+                0.2128426299119989,
+                0.21487454293916622,
+                0.21883548144251108,
+                0.2114498820155859,
+                0.22696539604415497
+            ],
+            "comparison": {
+                "0": {
+                    "target_epsilon": 1.0,
+                    "baseline_variance": 92.76,
+                    "nacs_variance": 20.610000000000003,
+                    "variance_reduction_percent": 77.78137128072446
+                },
+                "1": {
+                    "target_epsilon": 3.0,
+                    "baseline_variance": 129.08999999999997,
+                    "nacs_variance": 35.8,
+                    "variance_reduction_percent": 72.26741033387559
+                },
+                "2": {
+                    "target_epsilon": 8.0,
+                    "baseline_variance": 161.4,
+                    "nacs_variance": 43.60999999999999,
+                    "variance_reduction_percent": 72.98017348203223
+                },
+                "3": {
+                    "target_epsilon": 15.0,
+                    "baseline_variance": 110.83999999999999,
+                    "nacs_variance": 29.159999999999997,
+                    "variance_reduction_percent": 73.69180801154818
+                },
+                "4": {
+                    "target_epsilon": 20.0,
+                    "baseline_variance": 140.83999999999997,
+                    "nacs_variance": 39.8,
+                    "variance_reduction_percent": 71.7409826753763
+                }
+            }
+        }
+    ]
+}

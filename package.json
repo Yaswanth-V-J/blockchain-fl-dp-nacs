@@ -1,0 +1,11 @@
+{
+  "name": "project-sw",
+  "private": true,
+  "description": "Privacy-preserving federated learning with on-chain contribution ledger",
+  "scripts": {
+    "node": "npm run node --prefix blockchain",
+    "compile": "npm run compile --prefix blockchain",
+    "deploy": "npm run deploy --prefix blockchain",
+    "test:dummy": "npm run test:dummy --prefix blockchain"
+  }
+}
